@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(luke-chesser-eICUFSeirc0-unsplash.jpg)
+}
+.entry-form-section{
+  margin-top: 5%;
+}
+.entry-form-container{
+  width: 30%;
+  display: flex;
+  height:70vh;
+  background-image: linear-gradient(160deg,  #c4439d79, #2c23aa95);
+  color: white;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  box-shadow: 0 0 20px grey;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.data h1{
+  margin-top: 1%;
+  text-align: center;
+  font-family: "Playball", cursive;
+  text-transform: capitalize;
+}
+.section{
+  margin-top: 10%;
+}
+.names{
+  font-family: cursive;
+  margin-top: 80px;
+}
+.section p{
+  font-family: cursive;
+}
+input{
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: transparent;
+  border-inline: none;
+  border-top: none;
+  padding: 8px 10px;
+  border-bottom: 2px solid white;
+  outline: none;
+}
+::placeholder{
+  color: white;
+  letter-spacing: .1rem;
+  opacity: .6;
+  font-size: -1rem;
+}
+.data button{
+  margin: auto;
+  display: flex;
+  border: 1px solid white;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 80px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(160deg,  #2D23AA, #C4439D);
+
+}
+button:hover{
+  box-shadow: 0 0 60px #c4439d79;
+  cursor: pointer;
+}
+.data p{
+  font-family: cursive;
+  text-align: center;
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 8%;
+  cursor: pointer;
+}
